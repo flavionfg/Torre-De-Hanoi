@@ -18,7 +18,7 @@ public class Principal {
 			hanoi(discos - 1,pino_de_origem,pino_de_destino,pino_auxiliar); 
 			
 			//Movimento da origem para destino
-			System.out.printf("Mover do %s para %s\n", pino_de_origem,pino_de_destino);
+			System.out.printf("Mover o %s disco do %s para o %s\n",discos, pino_de_origem,pino_de_destino);
 			
 			//Auxiliar para o destino(n-1 discos)
 			hanoi(discos - 1,pino_auxiliar,pino_de_origem,pino_de_destino);
